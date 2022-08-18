@@ -50,7 +50,7 @@ const removeHiHatTopTransition = e => {
 }
 
 const removeKeyTransition = e => {
-    if(e.propertyName !== 'transition') return;
+    if(e.propertyName !== 'transform') return;
 
     e.target.classList.remove('playing')
 }
